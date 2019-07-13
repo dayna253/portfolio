@@ -1,0 +1,126 @@
+/* **BASE STYLES** */
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    color: #333333;
+}
+
+
+/*** GRID ***/
+
+.full-width {
+    width: 1200px;
+    margin: 0 auto;   /* note 2 values  [margin: vertical horizontal;] */
+}
+.half-width{
+    width: 600px;
+    float: left;
+}
+.third-width{
+    width: 400px;
+    float: left;
+}
+
+
+/* ** HEADER ** */
+header{
+    height: 100px;
+    text-transform: uppercase;
+}
+header h1{
+    font-size: 30px;
+    padding: 35px 0px;
+    margin: 0px;
+}
+header span{
+    color: #77a466;
+}
+nav {
+    float: right; 
+    font-weight: bold;
+    padding: 27px 0px;
+}
+nav ul li{
+    color: #77a466;
+    display: inline-block;
+    font-size: 14px;
+    padding-left: 20px; 
+}
+
+
+/* **BIO SECTION** */
+#bio{
+    height: 470px
+}
+#bio img{
+    border: 3px solid #77a466;
+    margin-bottom: 15px;
+}
+#bio h2{
+    color: #77a466;
+    font-size: 18px;
+    line-height: 23px;
+    text-transform: uppercase;
+}
+#bio p{
+    font-size: 16px;
+    line-height: 25px;
+
+}
+
+
+/* **ABOUT SECTION** */
+#about .third-width{
+    width: 337px;
+    height:180px;
+    margin:0px;
+    padding:20px 30px;
+    border: 1px solid #dedbdc;
+
+}
+#about h4{
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 25px;
+    text-transform: uppercase;
+    margin: 0px;
+
+}
+#about #specials{
+    border-left: none;
+}
+#about .foods{
+    color: #77a466;
+    font-size: 16px;
+    line-height: 38px;
+}
+#about #reviews{
+    border-left:none;
+    border-right:none;
+}
+#about .review{
+    font-size: 16px;
+    line-height: 21px;
+    width: 330px;
+}
+#about #contact{
+    border-right: none;
+}
+#about .address{
+    font-size: 16px;
+    line-height: 24px;
+}
+
+
+/* **FOOTER** */
+
+footer{
+    clear: both;
+    text-align: center;
+    padding: 10px;
+}
+footer span{
+    color: #77a466;
+    font-family: 'Oleo Script', cursive;
+    font-weight: 400;
+}
