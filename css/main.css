@@ -1,0 +1,214 @@
+/*** BASE STYLES ***/
+
+body{
+    font-family: 'Raleway', sans-serif;
+    font-weight: normal;
+    color: #1c3b6c;
+}
+#work h4, #about h4{
+    clear: both;
+    color: #1c3b6c;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 32px;
+}
+
+
+/*** GRID ***/
+
+.full-width {
+    width: 1200px;
+    margin: 0 auto;  
+}
+.half-width{
+    width: 600px;
+    float: left;
+}
+.third-width{
+    width: 400px;
+    float: left;
+}
+
+
+
+/* ** HEADER ** */
+header {
+    height: 800px;
+    background: url(../img/hero-image.png) no-repeat 0px -170px #1c3b6c2d;
+    background-size: cover;
+    /* border: 1px dotted black; */
+
+}
+/*name top left corner*/
+header h1{
+    color: #1c3b6ca1;
+    font-size: 16px;
+    text-transform: uppercase;
+    margin: 0px;
+    margin-bottom: 250px;
+    padding: 25px;
+    font-weight: normal;
+    /* border: 1px dotted black; */
+
+} 
+/*navigation bar*/
+nav {
+    float: right; 
+    margin: 0px;
+    padding: 10px;
+    /* border: 1px dotted black; */
+
+}
+nav ul li{
+    display: inline-block;
+}
+nav ul li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 16px;
+    color: #1c3b6ca1;
+    padding: 0px 0px 0px 35px;
+    margin: 0px;
+    /* border: 1px dotted black; */
+
+}
+/*main greeting*/
+header h2 {
+    width: 1200px;
+    clear: both;
+    /* font-family: 'Open Sans', sans-serif; */
+    font-size: 60px;
+    font-weight: normal;
+    color: #1c3b6c;
+    text-align:center;
+    margin: 0px;
+    margin-bottom: 10px;
+    /* border: 1px dotted black; */
+}
+/*subtitle*/
+header h3{
+    width: 1200px;
+    color: #1c3b6ca1;
+    font-size: 36px;
+    font-weight: normal;
+    text-align:center;
+    line-height: 35px;
+    margin: 0px;
+    text-decoration: overline;
+    text-decoration-style: dotted;
+    text-decoration-color:#1c3b6c2d;
+    /* border: 1px dotted black; */
+}
+
+
+/* ** WORK SECTION ** */
+
+/* full width project divs */
+#jubilee, #rouge, #holstee{
+    clear: both;
+    /* border: 1px dotted black; */
+    overflow:auto;
+    margin-bottom: 20px;
+    background:#dfe4ea;
+}
+#work #rouge{
+    background: #c0cad6af;
+}
+#work #holstee{
+    background: #c0cad6;
+}
+
+/* image divs  half widths*/
+ #work .image{
+    padding: 0px;
+    margin-left: -3px;
+} 
+
+#work img {
+    width: 500px;
+    margin: 20px 50px;
+    border: 3px double #1c3b6c; 
+    padding: 1px;
+
+}
+
+/* project description divs  half widths */
+#work .description{
+    margin-top: 90px;
+    margin-left:-3px;
+    /* border: 1px dotted black; */
+}
+#work h5{
+    font-size: 26px;
+    margin: 10px;
+    font-weight: normal;
+    /* border: 1px dotted black; */
+}
+#work p{
+    width: 500px;
+    margin: 10px;
+    /* border: 1px dotted black; */
+}
+
+
+/* ** ABOUT SECTION ** */
+#about{
+    /* border: 1px dotted black; */
+    height: 500px;
+    overflow: auto;
+}
+#about img{
+    border: 12px solid #1c3b6ca1;
+    margin-left: 150px;
+}
+#about span{
+    font-size: 26px;
+}
+
+
+/* ** CONTACT/FOOTER ** */
+
+footer{
+    background: url(../img/footer-image.png) no-repeat 0px -460px #1c3b6c2d;
+    background-size: cover;
+    height: 600px;
+    /* border: 1px dotted black; */
+}
+footer h4{
+    font-size: 36px;
+    font-weight: normal;
+    padding-top: 50px;
+}
+
+/* text on the page image */
+#contact{
+    transform: rotate(337deg);
+    width:500px;
+    margin: 0px 0px 0px 270px;
+    font-size: 34px;
+    line-height: 10px;
+    text-align: right;
+    /* other font ideas 'Nothing You Could Do', 'Annie Use Your Telescope' (available on google fonts)*/
+    font-family: 'Give You Glory', cursive;
+}
+#contact #email-header, #socialmedia-header{
+    text-align: left;
+
+}
+
+/* email link */
+#contact a {
+    text-decoration: none;
+    font-size: 30px
+}
+
+/* online link icons */
+#contact ul li{
+    display: inline-block;
+    padding: 40px 0px;
+}
+#contact ul img {
+    padding-left: 30px;
+    width: 45px;
+}
