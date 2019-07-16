@@ -35,7 +35,7 @@ body{
 /* ** HEADER ** */
 header {
     height: 800px;
-    background: url(../img/hero-image.png) no-repeat 0px -170px #1c3b6c2d;
+    background: url(../img/hero-image.png) no-repeat 0px 0px #1c3b6c2d;
     background-size: cover;
     /* border: 1px dotted black; */
 
@@ -111,6 +111,10 @@ header h3{
     overflow:auto;
     margin-bottom: 20px;
     background:#dfe4ea;
+}
+#work a {
+    text-decoration: none;
+    color: #1c3b6c;
 }
 #work #rouge{
     background: #c0cad6af;
